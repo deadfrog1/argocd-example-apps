@@ -14,7 +14,7 @@ spec:
         app: hello-world-ui
     spec:
       containers:
-      - image: hello-world:latest
+      - image: nginx:latest
         name: hello-world-ui
         ports:
         - containerPort: 80
